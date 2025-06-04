@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB3F4D42DD25AEF006A98F8 /* CartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4AF2DD25AEF006A98F8 /* CartScreenView.swift */; };
+		CBB3F4D52DD25AEF006A98F8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4B42DD25AEF006A98F8 /* ProductModel.swift */; };
+		CBB3F4D62DD25AEF006A98F8 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4B62DD25AEF006A98F8 /* HomeScreenView.swift */; };
+		CBB3F4D72DD25AEF006A98F8 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4B82DD25AEF006A98F8 /* ProductViewModel.swift */; };
+		CBB3F4D82DD25AEF006A98F8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4BB2DD25AEF006A98F8 /* LoginView.swift */; };
+		CBB3F4D92DD25AEF006A98F8 /* OrderScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4BE2DD25AEF006A98F8 /* OrderScreenView.swift */; };
+		CBB3F4DA2DD25AEF006A98F8 /* OTPBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4C12DD25AEF006A98F8 /* OTPBoxView.swift */; };
+		CBB3F4DB2DD25AEF006A98F8 /* OTPScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4C22DD25AEF006A98F8 /* OTPScreenView.swift */; };
+		CBB3F4DC2DD25AEF006A98F8 /* ProfileScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4C52DD25AEF006A98F8 /* ProfileScreenView.swift */; };
+		CBB3F4DD2DD25AEF006A98F8 /* SearchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4C82DD25AEF006A98F8 /* SearchScreenView.swift */; };
+		CBB3F4DE2DD25AEF006A98F8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4CB2DD25AEF006A98F8 /* SplashScreenView.swift */; };
+		CBB3F4DF2DD25AEF006A98F8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4CD2DD25AEF006A98F8 /* CustomTabBarView.swift */; };
+		CBB3F4E02DD25AEF006A98F8 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4CE2DD25AEF006A98F8 /* TabBarButtonView.swift */; };
+		CBB3F4E12DD25AEF006A98F8 /* TermsAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4D02DD25AEF006A98F8 /* TermsAndConditions.swift */; };
+		CBB3F4E22DD25AEF006A98F8 /* FroodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F4D22DD25AEF006A98F8 /* FroodApp.swift */; };
+		CBB3F4E32DD25AEF006A98F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB3F4B22DD25AEF006A98F8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5595912DCBDF300064249C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB55957B2DCBDF2D0064249C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5595822DCBDF2D0064249C;
+			remoteInfo = Frood;
+		};
+		CB55959B2DCBDF300064249C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB55957B2DCBDF2D0064249C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5595822DCBDF2D0064249C;
+			remoteInfo = Frood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5595832DCBDF2D0064249C /* Frood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5595902DCBDF300064249C /* FroodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FroodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB55959A2DCBDF300064249C /* FroodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FroodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3F4AF2DD25AEF006A98F8 /* CartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4B22DD25AEF006A98F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBB3F4B42DD25AEF006A98F8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CBB3F4B62DD25AEF006A98F8 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4B82DD25AEF006A98F8 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		CBB3F4BB2DD25AEF006A98F8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CBB3F4BE2DD25AEF006A98F8 /* OrderScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4C12DD25AEF006A98F8 /* OTPBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPBoxView.swift; sourceTree = "<group>"; };
+		CBB3F4C22DD25AEF006A98F8 /* OTPScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4C52DD25AEF006A98F8 /* ProfileScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4C82DD25AEF006A98F8 /* SearchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4CB2DD25AEF006A98F8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		CBB3F4CD2DD25AEF006A98F8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		CBB3F4CE2DD25AEF006A98F8 /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
+		CBB3F4D02DD25AEF006A98F8 /* TermsAndConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditions.swift; sourceTree = "<group>"; };
+		CBB3F4D22DD25AEF006A98F8 /* FroodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FroodApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CB5595932DCBDF300064249C /* FroodTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FroodTests;
+			sourceTree = "<group>";
+		};
+		CB55959D2DCBDF300064249C /* FroodUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FroodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5595802DCBDF2D0064249C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB55958D2DCBDF300064249C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5595972DCBDF300064249C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB55957A2DCBDF2D0064249C = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4D32DD25AEF006A98F8 /* Frood */,
+				CB5595932DCBDF300064249C /* FroodTests */,
+				CB55959D2DCBDF300064249C /* FroodUITests */,
+				CB5595842DCBDF2D0064249C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5595842DCBDF2D0064249C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5595832DCBDF2D0064249C /* Frood.app */,
+				CB5595902DCBDF300064249C /* FroodTests.xctest */,
+				CB55959A2DCBDF300064249C /* FroodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB3F4B02DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4AF2DD25AEF006A98F8 /* CartScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4B12DD25AEF006A98F8 /* AddToCartScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B02DD25AEF006A98F8 /* View */,
+			);
+			path = AddToCartScreenView;
+			sourceTree = "<group>";
+		};
+		CBB3F4B32DD25AEF006A98F8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B22DD25AEF006A98F8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CBB3F4B52DD25AEF006A98F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B42DD25AEF006A98F8 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBB3F4B72DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B62DD25AEF006A98F8 /* HomeScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4B92DD25AEF006A98F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B82DD25AEF006A98F8 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBB3F4BA2DD25AEF006A98F8 /* HomeScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4B52DD25AEF006A98F8 /* Model */,
+				CBB3F4B72DD25AEF006A98F8 /* View */,
+				CBB3F4B92DD25AEF006A98F8 /* ViewModel */,
+			);
+			path = HomeScreenModule;
+			sourceTree = "<group>";
+		};
+		CBB3F4BC2DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4BB2DD25AEF006A98F8 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4BD2DD25AEF006A98F8 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4BC2DD25AEF006A98F8 /* View */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		CBB3F4BF2DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4BE2DD25AEF006A98F8 /* OrderScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4C02DD25AEF006A98F8 /* OrderScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4BF2DD25AEF006A98F8 /* View */,
+			);
+			path = OrderScreenView;
+			sourceTree = "<group>";
+		};
+		CBB3F4C32DD25AEF006A98F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C12DD25AEF006A98F8 /* OTPBoxView.swift */,
+				CBB3F4C22DD25AEF006A98F8 /* OTPScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBB3F4C42DD25AEF006A98F8 /* OTPScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C32DD25AEF006A98F8 /* Views */,
+			);
+			path = OTPScreenModule;
+			sourceTree = "<group>";
+		};
+		CBB3F4C62DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C52DD25AEF006A98F8 /* ProfileScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4C72DD25AEF006A98F8 /* ProfileScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C62DD25AEF006A98F8 /* View */,
+			);
+			path = ProfileScreenView;
+			sourceTree = "<group>";
+		};
+		CBB3F4C92DD25AEF006A98F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C82DD25AEF006A98F8 /* SearchScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB3F4CA2DD25AEF006A98F8 /* SearchScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4C92DD25AEF006A98F8 /* View */,
+			);
+			path = SearchScreenView;
+			sourceTree = "<group>";
+		};
+		CBB3F4CC2DD25AEF006A98F8 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4CB2DD25AEF006A98F8 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		CBB3F4CF2DD25AEF006A98F8 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4CD2DD25AEF006A98F8 /* CustomTabBarView.swift */,
+				CBB3F4CE2DD25AEF006A98F8 /* TabBarButtonView.swift */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		CBB3F4D12DD25AEF006A98F8 /* TermAndConditions */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4D02DD25AEF006A98F8 /* TermsAndConditions.swift */,
+			);
+			path = TermAndConditions;
+			sourceTree = "<group>";
+		};
+		CBB3F4D32DD25AEF006A98F8 /* Frood */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4E42DD25B0F006A98F8 /* Onboarding */,
+				CBB3F4B12DD25AEF006A98F8 /* AddToCartScreenView */,
+				CBB3F4B32DD25AEF006A98F8 /* Assets */,
+				CBB3F4BA2DD25AEF006A98F8 /* HomeScreenModule */,
+				CBB3F4C02DD25AEF006A98F8 /* OrderScreenView */,
+				CBB3F4C72DD25AEF006A98F8 /* ProfileScreenView */,
+				CBB3F4CA2DD25AEF006A98F8 /* SearchScreenView */,
+				CBB3F4CF2DD25AEF006A98F8 /* TabBarModule */,
+				CBB3F4D22DD25AEF006A98F8 /* FroodApp.swift */,
+			);
+			path = Frood;
+			sourceTree = "<group>";
+		};
+		CBB3F4E42DD25B0F006A98F8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3F4D12DD25AEF006A98F8 /* TermAndConditions */,
+				CBB3F4CC2DD25AEF006A98F8 /* SplashScreen */,
+				CBB3F4C42DD25AEF006A98F8 /* OTPScreenModule */,
+				CBB3F4BD2DD25AEF006A98F8 /* LoginModule */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5595822DCBDF2D0064249C /* Frood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5595A42DCBDF300064249C /* Build configuration list for PBXNativeTarget "Frood" */;
+			buildPhases = (
+				CB55957F2DCBDF2D0064249C /* Sources */,
+				CB5595802DCBDF2D0064249C /* Frameworks */,
+				CB5595812DCBDF2D0064249C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frood;
+			packageProductDependencies = (
+			);
+			productName = Frood;
+			productReference = CB5595832DCBDF2D0064249C /* Frood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB55958F2DCBDF300064249C /* FroodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5595A72DCBDF300064249C /* Build configuration list for PBXNativeTarget "FroodTests" */;
+			buildPhases = (
+				CB55958C2DCBDF300064249C /* Sources */,
+				CB55958D2DCBDF300064249C /* Frameworks */,
+				CB55958E2DCBDF300064249C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5595922DCBDF300064249C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB5595932DCBDF300064249C /* FroodTests */,
+			);
+			name = FroodTests;
+			packageProductDependencies = (
+			);
+			productName = FroodTests;
+			productReference = CB5595902DCBDF300064249C /* FroodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5595992DCBDF300064249C /* FroodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5595AA2DCBDF300064249C /* Build configuration list for PBXNativeTarget "FroodUITests" */;
+			buildPhases = (
+				CB5595962DCBDF300064249C /* Sources */,
+				CB5595972DCBDF300064249C /* Frameworks */,
+				CB5595982DCBDF300064249C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB55959C2DCBDF300064249C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB55959D2DCBDF300064249C /* FroodUITests */,
+			);
+			name = FroodUITests;
+			packageProductDependencies = (
+			);
+			productName = FroodUITests;
+			productReference = CB55959A2DCBDF300064249C /* FroodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB55957B2DCBDF2D0064249C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					CB5595822DCBDF2D0064249C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CB55958F2DCBDF300064249C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CB5595822DCBDF2D0064249C;
+					};
+					CB5595992DCBDF300064249C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CB5595822DCBDF2D0064249C;
+					};
+				};
+			};
+			buildConfigurationList = CB55957E2DCBDF2D0064249C /* Build configuration list for PBXProject "Frood" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB55957A2DCBDF2D0064249C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CB5595842DCBDF2D0064249C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5595822DCBDF2D0064249C /* Frood */,
+				CB55958F2DCBDF300064249C /* FroodTests */,
+				CB5595992DCBDF300064249C /* FroodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5595812DCBDF2D0064249C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB3F4E32DD25AEF006A98F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB55958E2DCBDF300064249C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5595982DCBDF300064249C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB55957F2DCBDF2D0064249C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB3F4D42DD25AEF006A98F8 /* CartScreenView.swift in Sources */,
+				CBB3F4D52DD25AEF006A98F8 /* ProductModel.swift in Sources */,
+				CBB3F4D62DD25AEF006A98F8 /* HomeScreenView.swift in Sources */,
+				CBB3F4D72DD25AEF006A98F8 /* ProductViewModel.swift in Sources */,
+				CBB3F4D82DD25AEF006A98F8 /* LoginView.swift in Sources */,
+				CBB3F4D92DD25AEF006A98F8 /* OrderScreenView.swift in Sources */,
+				CBB3F4DA2DD25AEF006A98F8 /* OTPBoxView.swift in Sources */,
+				CBB3F4DB2DD25AEF006A98F8 /* OTPScreenView.swift in Sources */,
+				CBB3F4DC2DD25AEF006A98F8 /* ProfileScreenView.swift in Sources */,
+				CBB3F4DD2DD25AEF006A98F8 /* SearchScreenView.swift in Sources */,
+				CBB3F4DE2DD25AEF006A98F8 /* SplashScreenView.swift in Sources */,
+				CBB3F4DF2DD25AEF006A98F8 /* CustomTabBarView.swift in Sources */,
+				CBB3F4E02DD25AEF006A98F8 /* TabBarButtonView.swift in Sources */,
+				CBB3F4E12DD25AEF006A98F8 /* TermsAndConditions.swift in Sources */,
+				CBB3F4E22DD25AEF006A98F8 /* FroodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB55958C2DCBDF300064249C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5595962DCBDF300064249C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5595922DCBDF300064249C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5595822DCBDF2D0064249C /* Frood */;
+			targetProxy = CB5595912DCBDF300064249C /* PBXContainerItemProxy */;
+		};
+		CB55959C2DCBDF300064249C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5595822DCBDF2D0064249C /* Frood */;
+			targetProxy = CB55959B2DCBDF300064249C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB5595A22DCBDF300064249C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 32G264524B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5595A32DCBDF300064249C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 32G264524B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5595A52DCBDF300064249C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.Frood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5595A62DCBDF300064249C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.Frood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB5595A82DCBDF300064249C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.FroodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frood";
+			};
+			name = Debug;
+		};
+		CB5595A92DCBDF300064249C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.FroodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Frood";
+			};
+			name = Release;
+		};
+		CB5595AB2DCBDF300064249C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.FroodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frood;
+			};
+			name = Debug;
+		};
+		CB5595AC2DCBDF300064249C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32G264524B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shariq.FroodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Frood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB55957E2DCBDF2D0064249C /* Build configuration list for PBXProject "Frood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5595A22DCBDF300064249C /* Debug */,
+				CB5595A32DCBDF300064249C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5595A42DCBDF300064249C /* Build configuration list for PBXNativeTarget "Frood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5595A52DCBDF300064249C /* Debug */,
+				CB5595A62DCBDF300064249C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5595A72DCBDF300064249C /* Build configuration list for PBXNativeTarget "FroodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5595A82DCBDF300064249C /* Debug */,
+				CB5595A92DCBDF300064249C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5595AA2DCBDF300064249C /* Build configuration list for PBXNativeTarget "FroodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5595AB2DCBDF300064249C /* Debug */,
+				CB5595AC2DCBDF300064249C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB55957B2DCBDF2D0064249C /* Project object */;
+}
